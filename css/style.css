@@ -1,0 +1,105 @@
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+#banner{
+    height: 500px;
+    background-image: url("../images/top-banner.png");
+    background-repeat: no-repeat;
+}
+
+.banner_items h1{
+font-size: 50px;
+}
+
+.name-highlight{
+    color: orange;
+}
+.banner_items{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding-bottom: 20px;
+}
+
+.banner_items img{
+    width: 100%;
+}
+
+.hire_button{
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+
+.hire_button:hover{
+    background-color: white;
+    border: 2px solid orange;
+    color: orange;
+    transition: all linear .3s;
+}
+
+#dream_banner{
+    background-image: url(../images/dream-bg.png);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+#experience{
+    height: 350px;
+    background-image: url("../images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.exp_shadow{
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 5px;
+    height: 50%;
+    background-color: white;
+    padding-top: 20px;
+}
+.exp_shadow h2{
+    padding-bottom: 8px;
+}
+
+.exp_shadow h3{
+    padding-bottom: 8px;
+}
+
+#exp_border_left{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,tomato);
+    border-image-slice: 1;
+}
+
+#exp_border_right{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue,cyan);
+    border-image-slice: 1;
+    border-radius: 4px;
+}
+
+#footer p{
+    text-align: center;
+    font-size: 14px;
+}
